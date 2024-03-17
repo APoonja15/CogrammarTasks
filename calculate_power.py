@@ -1,5 +1,8 @@
-number = 1
-power = 2
+import math
 
-result = number *(power*number)
+number = int(input("please enter base number: "))
+power = int(input("please enter power: "))
+
+result = math.pow(number, power)
+
 print(result)
